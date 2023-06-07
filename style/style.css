@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.woff2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main-box {}
+
+.main-content {
+    background: rgba(0, 0, 0, 0.05);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content__img {}
+
+.container {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0px;
+    left: 1320px;
+    width: 420px;
+    height: 900px;
+    background: #18A4E0;
+    box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+}
+
+.sidebar__top {
+    background: #043353;
+    border-radius: 0px 0px 8px 8px;
+    width: 420px;
+    height: 100px;
+    margin-bottom: 32px;
+}
+
+.list-info {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-info__item {
+    display: flex;
+}
+
+.list-info__icon {
+    padding: 16px 16px 16px 24px;
+}
+
+.list-info__user {}
+
+.list-info__name {
+    color: #FAF8F0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 28px;
+}
+
+.list-info__profession {
+    color: #F2994A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.btn {
+    width: 25px;
+    height: 25px;
+    padding-top: 16px;
+    padding-right: 24px;
+}
+
+.btn__icon {}
+
+.sidebar__center {
+    background: #FAF8F0;
+    border: 1px solid #043353;
+    border-radius: 8px;
+    width: 372px;
+    height: 656px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+}
+
+.list-review {
+    list-style: none;
+    padding: 20px 22px 22px 20px;
+    overflow: scroll;
+    height: 616px;
+}
+
+.list-review__item {
+    margin-bottom: 32px;
+}
+
+.box-name-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden-review {}
+
+.list-review__name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.list-review__data {}
+
+.list-review__text {}
+
+.sidebar__bottom {
+    background: #043353;
+    border-radius: 8px 8px 0px 0px;
+    width: 420px;
+    height: 80px;
+}
+
+.list-link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.list-link__item {}
